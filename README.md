@@ -5,9 +5,13 @@ SkyCast is a sleek and user-friendly weather application that allows users to se
 ## Features
 
  **City Search:** Enter any city to get the current weather information.
+ 
   **Temperature:** View the current temperature in Celsius or Fahrenheit.
+  
   **Humidity:** Check the current humidity levels.
+  
   **Weather Details:** Get additional information such as wind speed, weather conditions, etc.
+  
   **Responsive Design:** Material UI ensures the app looks great on all devices.
 
 ## Demo
