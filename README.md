@@ -12,7 +12,7 @@ SkyCast is a sleek and user-friendly weather application that allows users to se
 
 ## Demo
 
-Check out the live demo of SkyCast
+Check out the live demo of SkyCast https://skycast-steel.vercel.app/
 
 ## Installation
 
@@ -38,7 +38,8 @@ To get a local copy up and running follow these simple steps.
    ```
 4. Create a `.env` file in the root directory and add your Weather API key
    ```
-   REACT_APP_WEATHER_API_KEY=your_api_key_here
+   VITE_API_KEY=your_api_key_here
+   VITE_API_URL=https://api.openweathermap.org/data/2.5/weather
    ```
 5. Start the development server
    ```sh
@@ -47,7 +48,7 @@ To get a local copy up and running follow these simple steps.
 
 ## Usage
 
-1. Open your browser and go to `http://localhost:3000`.
+1. Open your browser and go to `http://localhost:5173`.
 2. Enter a city name in the search bar.
 3. View the weather information for the entered city.
 
@@ -64,24 +65,6 @@ Contributions are what make the open source community such an amazing place to b
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-## Deployment
-
-SkyCast is deployed using Vercel. Follow these steps to deploy your own version:
-
-1. Create a Vercel account and install Vercel CLI
-   ```sh
-   npm install -g vercel
-   ```
-2. Initialize the Vercel project
-   ```sh
-   vercel
-   ```
-3. Follow the prompts to set up your project
-4. Deploy your project
-   ```sh
-   vercel --prod
-   ```
 
 ## Contact
 
